@@ -1,8 +1,9 @@
 # Data Engineering Labs
 
-| S. No. | Lab                                              | Learning Objectives                                                     |
-|--------|--------------------------------------------------|-------------------------------------------------------------------------|
-| 1      | [Setup Airflow](./assets/lab-1-setup-airflow.md) | How to install Airflow in local MacOS/Unix as well as on AWS/GCP cloud. |
+| S. No. | Lab                                              | Learning Objectives                                                     | Tags |
+|--------|--------------------------------------------------|-------------------------------------------------------------------------| ---- |
+| 1      | [Setup Airflow](./assets/lab-1-setup-airflow.md) | How to install Airflow in local MacOS/Unix as well as on AWS/GCP cloud. | `airflow`, `docker`, `ec2`, `ecs`, `composer`, `mwaa` |
+| 2      | [ACLED Data Pipeline](./assets/lab-2-acled.md) | Building data pipeline using Armed Conflict Location & Event Data Project (ACLED) API | `airflow`, `athena`, `postgres`, `api`, `glue`, `s3`, `pyspark`, `sns` |
 
 ## Techstack
 
