@@ -1,17 +1,44 @@
 # Data Engineering Labs
 
-| S. No. | Lab                                              | Learning Objectives                                                     | Tags |
-|--------|--------------------------------------------------|-------------------------------------------------------------------------| ---- |
-| 1      | [Setup Airflow](./assets/lab-1-setup-airflow.md) | How to install Airflow in local MacOS/Unix as well as on AWS/GCP cloud. | `airflow`, `docker`, `ec2`, `ecs`, `composer`, `mwaa` |
-| 2      | [ACLED Data Pipeline](./assets/lab-2-acled.md) | Building data pipeline using Armed Conflict Location & Event Data Project (ACLED) API | `airflow`, `athena`, `postgres`, `api`, `glue`, `s3`, `pyspark`, `sns` |
+## Labs
+
+1. [Setup Airflow](./assets/lab-1-setup-airflow.md): Install Airflow in MacOS/Unix on Local/AWS/GCP. `airflow`, `docker`, `ec2`, `ecs`, `composer`, `mwaa`
+1. [ACLED Data Pipeline](./assets/lab-2-acled.md): Build data pipeline using ACLED API. `airflow`, `athena`, `postgres`, `api`, `glue`, `s3`, `pyspark`, `sns`
 
 ## Techstack
+
+### Database Engines
+
+1. Postgres - An open-source database for both OLTP and OLAP
+1. Athena - A serverless database engine service of AWS based on Presto
 
 ### Workflow Orchestration
 
 1. Airflow - An open-source tool for building data pipelines and manage workflows
 1. Cloud Composer - A managed Airflow service on Google cloud
 1. MWAA - A managed Airflow service on AWS cloud
+
+### Data Ingestion
+
+1. API - Getting data from sources via get/post methods
+
+### Cloud Compute
+
+1. EC2 - AWS service for VMs on the cloud
+1. Pyspark - Python+Spark for distributed data processing
+
+### Cloud Storage
+
+1. S3 - AWS elastic object storage service
+
+### DevOps
+
+1. Docker - Containerize the applications
+2. ECS - AWS service for container orchestration
+
+### Notifications
+
+1. SNS - AWS service to send notification emails/sms
 
 ## Training style
 
