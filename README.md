@@ -1,222 +1,213 @@
 # Data Engineering Labs
 
-## Currently active labs
-
-- lab-1-setup-airflow
-- lab-2-acled
-- lab-3-airflow-email
-- lab-4-airflow-csv-json
-- lab-5-airflow-conn-py
-- lab-6-airflow-etl
-- lab-7-airflow-redshift-ge
-- lab-8-airflow-bash-echo
-- lab-9-github-nft
-- lab-10-taxi-fare-prediction
-- lab-11-airflow-forex-etl
-- lab-12-city-traffic-drone
-- lab-13-twitter-etl
-- lab-14-movie-sentiment
-- lab-15-dbt-ge-airflow
-- lab-16-airflow-getting-started
-- lab-17-api-us-population
-- lab-18-api-scoota
-- lab-19-edu-hipolabs
-- lab-20-api-lufthansa
-- lab-21-secret-manager
-- lab-22-aws-iam
-- lab-23-athena-federated
-- lab-24-aws-etl
-- lab-25-postgres-ingest
-- lab-26-cassandra-amazon-keyspaces
-- lab-27-setup-cassandra
-- lab-28-cassandra-getting-started
-- lab-29-cassandra-data-modeling
-- lab-30-citybike
-- lab-31-climate
-- lab-32-covid19-aws-datalake
-- lab-33-covid19-analytics
-- lab-34-datamodel-cars
-- lab-35-databricks-loan-application
-- lab-36-databricks-clickstream
-- lab-37-databricks-deltalakes
-- lab-38-databricks-de
-- lab-39-dbt-nyctaxi
-- lab-40-dbt-olist
-- lab-41-dbt-jaffle-shop
-- lab-42-dbt-tickit
-- lab-43-dlt-dbt
-- lab-44-dbt-redshift-advanced
-- lab-45-dbt-snowflake-py
-- lab-46-setup-dbt
-- lab-47-digitalskola
-- lab-48-disaster-response
-- lab-49-duckdb-getting-started
-- lab-50-dvd-rental-datamodel
-- lab-51-emr-serverless
-- lab-52-us-immigration
-- lab-53-fastapi-de
-- lab-54-fireflow
-- lab-55-flink-getting-started
-- lab-56-datalake-schema-correction
-- lab-57-gcp-dataprep
-- lab-58-gcp-dataflow-etl
-- lab-59-gcp-bigquery-ml
-- lab-60-gcp-dataproc
-- lab-61-gcp-bigquery-composer
-- lab-62-gcp-bigquery-nyctaxi
-- lab-63-gcp-cloudsql-nyctaxi
-- lab-64-bigquery
-- lab-65-bigquery-data-warehousing
-- lab-66-bigquery-analysis
-- lab-67-bigquery-optimization
-- lab-68-gcp-pubsub
-- lab-69-gcp-pubsub-processing
-- lab-70-gcp-streaming-analytics
-- lab-71-gcp-streaming-bigtable
-- lab-72-bigquery-query-optimization
-- lab-73-gcp-dataflow-pipeline
-- lab-74-gcp-beam-mapreduce
-- lab-75-gcp-dataflow-side-inputs
-- lab-76-gcp-datafusion
-- lab-77-gcp-serverless-dataflow
-- lab-78-git-getting-started
-- lab-79-glue-studio-tickets
-- lab-80-glue-advanced
-- lab-81-google-playstore
-- lab-82-inegi-snowflake-datamodel
-- lab-83-iot-health-tracker
-- lab-84-setup-kafka
-- lab-85-kafka-getting-started
-- lab-86-confluent-kafka-faker
-- lab-87-kafka-spark-streaming
-- lab-88-kafka-fraud-detection
-- lab-89-kafka-nyctaxi
-- lab-90-kafka-toll-analysis
-- lab-91-kinesis-getting-started
-- lab-92-kinesis-apache-logs
-- lab-93-kinesis-flink-etl
-- lab-94-kinesis-etl-glue
-- lab-95-kinesis-clickstream-anomaly
-- lab-96-kubernetes-kubia-app
-- lab-97-lambda-csv-parquet
-- lab-98-kinesis-flink-beam
-- lab-99-postgres-pagila
-- lab-100-couchdb-movies
-- lab-101-mysql-netflix
-- lab-102-postgres-busrapid-transit
-- lab-103-postgres-getting-started
-- lab-104-postgres-crime-reports
-- lab-105-postgres-ewallet-datamodel
-- lab-106-postgres-elt
-- lab-107-prefect-getting-started
-- lab-108-pyspark-nyctaxi
-- lab-109-pyspark-basics
-- lab-110-pyspark-advanced
-- lab-111-pyspark-databricks-etl
-- lab-112-pyspark-itversity
-- lab-113-python-dsa-challenge
-- lab-114-python-basics
-- lab-115-realtime-fraud-detection
-- lab-116-recofront
-- lab-117-reddit
-- lab-118-redshift-getting-started
-- lab-119-sakila-music
-- lab-120-snowflake-getting-started
-- lab-121-snowflake-dbt-knoema
-- lab-122-snowflake-dbt-tpch
-- lab-123-sparkify-postgres-datamodel
-- lab-124-sparkify-cassandra-datamodel
-- lab-125-sparkify-redshift-warehousing
-- lab-126-sparkify-datalake-pyspark
-- lab-127-sparkify-airflow-data-pipeline
-- lab-128-spotify-extract-load-airflow
-- lab-129-sql-assignment
-- lab-130-sql-assignment
-- lab-131-sql-assignment
-- lab-132-sql-assignment
-- lab-133-sql-dannys-diner
-- lab-134-sql-pizza-runner
-- lab-135-postgres-itversity
-- lab-136-sql-leetcode-hackerrank
-- lab-137-sql-patients
-- lab-138-sql-zoomzoom
-- lab-139-stackexchnge-dbt-bigquery
-- lab-140-star-jeans-etl
-- lab-141-stepfunction-athena-sns
-- lab-142-stepfunction-ecomm-sqs
-- lab-143-kafka-stock-market
-- lab-144-databricks-superset
-- lab-145-youtube-lambda-glue
-- lab-146-text-speech-data-pipeline
-- lab-147-web-scraping
-- lab-148-us-job-vacancies
-- lab-149-twitter-sentiment-glue
-- lab-150-graph-models
-- lab-151-klodars-datalake-design
-- lab-152-maths-probability-statistics
-- lab-153-recsys-matrix-factorizations
-- lab-154-streamlit-apps
-- lab-155-mlops
-- lab-156-multi-touch-attribution
-- lab-157-nlp-getting-started
-- lab-158-pdf-wordcloud-mail
-- lab-159-recsys-personalize-getting-started
-- lab-160-recsys-evaluation
-- lab-161-recsys-tourism
-- lab-162-work2vec
-- lab-163-sales-orders-pyspark
-- lab-164-databricks-deltalake
-- lab-165-sql-yammer
-- lab-166-funflix-redshift
-- lab-167-funflix-postgres-datamodel
-- lab-168-funflix-multiregion
-- lab-169-funflix-datalake
-- lab-170-faker-getting-started
-- lab-171-python-array-seq
-- lab-172-python-dict-set
-- lab-173-python-getting-started
-- lab-174-python-maps-plot
-- lab-175-api-hackernews-github
-- lab-176-api-getting-started
-- lab-177-pandas-sqlite
-- lab-179-pandas-getting-started
-- lab-180-pandas-hands-on-analysis
-- lab-181-pandas-workshop
-- lab-182-sqs-postgres-etl
-- lab-183-databricks-deltalake
-- lab-184-python-basics
-- lab-185-snowflake-snowsql
-- lab-186-snowsql-basics
-- lab-187-glue-studio-custom-transforms
-- lab-188-mysql-to-s3-incremental
-
-## Labs in development
-
-- equitize
-- loop-analytics
-- machine-learning-getting-started
-- modern-data-stack-gcp-terraform
-- modern-data-stack-dbt-snowflake
-- nifi-getting-started
-- patent-analytics-data-pipeline
-- reddit-kafka-sparkstreaming-bigquery
-- resale-price-realtime
-- research-alert-data-pipeline
-- sagemaker-de
-- sentimentate
-- smartcity
-- snowpark-churn
-- snowpark-streamlit
-- retail-listings-api-postgres
-- topic-modeling-pipeline
-- athena-eda
-- amazon-ecs-cta
-- data-ingestion-pulumi-snowflake
-- logsense
-- prefect-streaming
-- nlp-ner-name-address-parsing
-- ride-analysis-emr
-
-## Archived labs
-
-None
+- lab-1-setup-airflow `active`
+- lab-2-acled `active`
+- lab-3-airflow-email `active`
+- lab-4-airflow-csv-json `active`
+- lab-5-airflow-conn-py `active`
+- lab-6-airflow-etl `active`
+- lab-7-airflow-redshift-ge `active`
+- lab-8-airflow-bash-echo `active`
+- lab-9-github-nft `active`
+- lab-10-taxi-fare-prediction `active`
+- lab-11-airflow-forex-etl `active`
+- lab-12-city-traffic-drone `active`
+- lab-13-twitter-etl `active`
+- lab-14-movie-sentiment `active`
+- lab-15-dbt-ge-airflow `active`
+- lab-16-airflow-getting-started `active`
+- lab-17-api-us-population `active`
+- lab-18-api-scoota `active`
+- lab-19-edu-hipolabs `active`
+- lab-20-api-lufthansa `active`
+- lab-21-secret-manager `active`
+- lab-22-aws-iam `active`
+- lab-23-athena-federated `active`
+- lab-24-aws-etl `active`
+- lab-25-postgres-ingest `active`
+- lab-26-cassandra-amazon-keyspaces `active`
+- lab-27-setup-cassandra `active`
+- lab-28-cassandra-getting-started `active`
+- lab-29-cassandra-data-modeling `active`
+- lab-30-citybike `active`
+- lab-31-climate `active`
+- lab-32-covid19-aws-datalake `active`
+- lab-33-covid19-analytics `active`
+- lab-34-datamodel-cars `active`
+- lab-35-databricks-loan-application `active`
+- lab-36-databricks-clickstream `active`
+- lab-37-databricks-deltalakes `active`
+- lab-38-databricks-de `active`
+- lab-39-dbt-nyctaxi `active`
+- lab-40-dbt-olist `active`
+- lab-41-dbt-jaffle-shop `active`
+- lab-42-dbt-tickit `active`
+- lab-43-dlt-dbt `active`
+- lab-44-dbt-redshift-advanced `active`
+- lab-45-dbt-snowflake-py `active`
+- lab-46-setup-dbt `active`
+- lab-47-digitalskola `active`
+- lab-48-disaster-response `active`
+- lab-49-duckdb-getting-started `active`
+- lab-50-dvd-rental-datamodel `active`
+- lab-51-emr-serverless `active`
+- lab-52-us-immigration `active`
+- lab-53-fastapi-de `active`
+- lab-54-fireflow `active`
+- lab-55-flink-getting-started `active`
+- lab-56-datalake-schema-correction `active`
+- lab-57-gcp-dataprep `active`
+- lab-58-gcp-dataflow-etl `active`
+- lab-59-gcp-bigquery-ml `active`
+- lab-60-gcp-dataproc `active`
+- lab-61-gcp-bigquery-composer `active`
+- lab-62-gcp-bigquery-nyctaxi `active`
+- lab-63-gcp-cloudsql-nyctaxi `active`
+- lab-64-bigquery `active`
+- lab-65-bigquery-data-warehousing `active`
+- lab-66-bigquery-analysis `active`
+- lab-67-bigquery-optimization `active`
+- lab-68-gcp-pubsub `active`
+- lab-69-gcp-pubsub-processing `active`
+- lab-70-gcp-streaming-analytics `active`
+- lab-71-gcp-streaming-bigtable `active`
+- lab-72-bigquery-query-optimization `active`
+- lab-73-gcp-dataflow-pipeline `active`
+- lab-74-gcp-beam-mapreduce `active`
+- lab-75-gcp-dataflow-side-inputs `active`
+- lab-76-gcp-datafusion `active`
+- lab-77-gcp-serverless-dataflow `active`
+- lab-78-git-getting-started `active`
+- lab-79-glue-studio-tickets `active`
+- lab-80-glue-advanced `active`
+- lab-81-google-playstore `active`
+- lab-82-inegi-snowflake-datamodel `active`
+- lab-83-iot-health-tracker `active`
+- lab-84-setup-kafka `active`
+- lab-85-kafka-getting-started `active`
+- lab-86-confluent-kafka-faker `active`
+- lab-87-kafka-spark-streaming `active`
+- lab-88-kafka-fraud-detection `active`
+- lab-89-kafka-nyctaxi `active`
+- lab-90-kafka-toll-analysis `active`
+- lab-91-kinesis-getting-started `active`
+- lab-92-kinesis-apache-logs `active`
+- lab-93-kinesis-flink-etl `active`
+- lab-94-kinesis-etl-glue `active`
+- lab-95-kinesis-clickstream-anomaly `active`
+- lab-96-kubernetes-kubia-app `active`
+- lab-97-lambda-csv-parquet `active`
+- lab-98-kinesis-flink-beam `active`
+- lab-99-postgres-pagila `active`
+- lab-100-couchdb-movies `active`
+- lab-101-mysql-netflix `active`
+- lab-102-postgres-busrapid-transit `active`
+- lab-103-postgres-getting-started `active`
+- lab-104-postgres-crime-reports `active`
+- lab-105-postgres-ewallet-datamodel `active`
+- lab-106-postgres-elt `active`
+- lab-107-prefect-getting-started `active`
+- lab-108-pyspark-nyctaxi `active`
+- lab-109-pyspark-basics `active`
+- lab-110-pyspark-advanced `active`
+- lab-111-pyspark-databricks-etl `active`
+- lab-112-pyspark-itversity `active`
+- lab-113-python-dsa-challenge `active`
+- lab-114-python-basics `active`
+- lab-115-realtime-fraud-detection `active`
+- lab-116-recofront `active`
+- lab-117-reddit `active`
+- lab-118-redshift-getting-started `active`
+- lab-119-sakila-music `active`
+- lab-120-snowflake-getting-started `active`
+- lab-121-snowflake-dbt-knoema `active`
+- lab-122-snowflake-dbt-tpch `active`
+- lab-123-sparkify-postgres-datamodel `active`
+- lab-124-sparkify-cassandra-datamodel `active`
+- lab-125-sparkify-redshift-warehousing `active`
+- lab-126-sparkify-datalake-pyspark `active`
+- lab-127-sparkify-airflow-data-pipeline `active`
+- lab-128-spotify-extract-load-airflow `active`
+- lab-129-sql-assignment `active`
+- lab-130-sql-assignment `active`
+- lab-131-sql-assignment `active`
+- lab-132-sql-assignment `active`
+- lab-133-sql-dannys-diner `active`
+- lab-134-sql-pizza-runner `active`
+- lab-135-postgres-itversity `active`
+- lab-136-sql-leetcode-hackerrank `active`
+- lab-137-sql-patients `active`
+- lab-138-sql-zoomzoom `active`
+- lab-139-stackexchnge-dbt-bigquery `active`
+- lab-140-star-jeans-etl `active`
+- lab-141-stepfunction-athena-sns `active`
+- lab-142-stepfunction-ecomm-sqs `active`
+- lab-143-kafka-stock-market `active`
+- lab-144-databricks-superset `active`
+- lab-145-youtube-lambda-glue `active`
+- lab-146-text-speech-data-pipeline `active`
+- lab-147-web-scraping `active`
+- lab-148-us-job-vacancies `active`
+- lab-149-twitter-sentiment-glue `active`
+- lab-150-graph-models `active`
+- lab-151-klodars-datalake-design `active`
+- lab-152-maths-probability-statistics `active`
+- lab-153-recsys-matrix-factorizations `active`
+- lab-154-streamlit-apps `active`
+- lab-155-mlops `active`
+- lab-156-multi-touch-attribution `active`
+- lab-157-nlp-getting-started `active`
+- lab-158-pdf-wordcloud-mail `active`
+- lab-159-recsys-personalize-getting-started `active`
+- lab-160-recsys-evaluation `active`
+- lab-161-recsys-tourism `active`
+- lab-162-work2vec `active`
+- lab-163-sales-orders-pyspark `active`
+- lab-164-databricks-deltalake `active`
+- lab-165-sql-yammer `active`
+- lab-166-funflix-redshift `active`
+- lab-167-funflix-postgres-datamodel `active`
+- lab-168-funflix-multiregion `active`
+- lab-169-funflix-datalake `active`
+- lab-170-faker-getting-started `active`
+- lab-171-python-array-seq `active`
+- lab-172-python-dict-set `active`
+- lab-173-python-getting-started `active`
+- lab-174-python-maps-plot `active`
+- lab-175-api-hackernews-github `active`
+- lab-176-api-getting-started `active`
+- lab-177-pandas-sqlite `active`
+- lab-179-pandas-getting-started `active`
+- lab-180-pandas-hands-on-analysis `active`
+- lab-181-pandas-workshop `active`
+- lab-182-sqs-postgres-etl `active`
+- lab-183-databricks-deltalake `active`
+- lab-184-python-basics `active`
+- lab-185-snowflake-snowsql `active`
+- lab-186-snowsql-basics `active`
+- lab-187-glue-studio-custom-transforms `active`
+- lab-188-mysql-to-s3-incremental `active`
+- equitize `build`
+- loop-analytics `build`
+- machine-learning-getting-started `build`
+- modern-data-stack-gcp-terraform `build`
+- modern-data-stack-dbt-snowflake `build`
+- nifi-getting-started `build`
+- patent-analytics-data-pipeline `build`
+- reddit-kafka-sparkstreaming-bigquery `build`
+- resale-price-realtime `build`
+- research-alert-data-pipeline `build`
+- sagemaker-de `build`
+- sentimentate `build`
+- smartcity `build`
+- snowpark-churn `build`
+- snowpark-streamlit `build`
+- retail-listings-api-postgres `build`
+- topic-modeling-pipeline `build`
+- athena-eda `build`
+- amazon-ecs-cta `build`
+- data-ingestion-pulumi-snowflake `build`
+- logsense `build`
+- prefect-streaming `build`
+- nlp-ner-name-address-parsing `build`
+- ride-analysis-emr `build`
