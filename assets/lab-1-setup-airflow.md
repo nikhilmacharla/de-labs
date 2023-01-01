@@ -26,18 +26,16 @@ In this Lab, you will learn how to:
 1. Install python libs - `pip install -r requirements.txt`
 1. Install and Setup Airflow
 1. Load the DAGs and Plugins:
+    ```sh
+    # local to s3
+    aws s3 sync dags s3://<path>/dags
+    aws s3 sync plugins s3://<path>/plugins
 
-```sh
-# local to s3
-aws s3 sync dags s3://<path>/dags
-aws s3 sync plugins s3://<path>/plugins
-
-# s3 to ec2
-aws s3 sync s3://<path> .
-sudo rm -rf dags/__pycache__/
-sudo rm -rf plugins/__pycache__/
-```
-
+    # s3 to ec2
+    aws s3 sync s3://<path> .
+    sudo rm -rf dags/__pycache__/
+    sudo rm -rf plugins/__pycache__/
+    ```
 1. Start the airflow
 1. Use `iptables` command to update the routes
 1. Get the static elastic ip address
@@ -51,3 +49,16 @@ sudo rm -rf plugins/__pycache__/
 ## Setup Airflow on AWS MWAA
 
 1. Deploy `mwaa.yaml` Cloudformation stack
+
+## Solution
+
+```
+├── [2.3K]  Makefile
+├── [ 689]  ecs.yaml
+├── [1.6K]  lab-1-setup-airflow.md
+├── [9.2K]  mwaa.yaml
+├── [ 770]  requirements.txt
+└── [1.4K]  setup.sh
+
+  16K used in 0 directories, 6 files
+```

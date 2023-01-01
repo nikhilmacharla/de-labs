@@ -36,9 +36,7 @@ Your goal is to design and develop a data pipeline for it.
 6. Modify the DAG - update name, owner and change catchup, scheduling and other info as required
 7. Run the DAG
 
-:::note
-We first tried pipeline 1 but due to limitation in API requests, we decided to go with pipeline 2.
-:::
+note: We first tried pipeline 1 but due to limitation in API requests, we decided to go with pipeline 2.
 
 ## Solution
 
