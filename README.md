@@ -1,5 +1,27 @@
 # Data Engineering Labs
 
+## Bootcamp
+
+At the moment, **Data Engineering Bootcamp 2023 S1** is active.
+
+Follow these instructions to join bootcamp:
+
+1. Raise a git issue and add label `join-bootcamp-2023s1`
+1. Wait for 24-hours, you will be added to the git project
+
+How to start your training once you joined:
+
+1. Pick a lab from the list (available in next section)
+1. Create a User story out of it
+1. Join the daily scrum call [here](https://meet.google.com/onf-iobd-vvg) (15-min Mon-Fri 10:30 PM EST)
+1. Based on your updates, your story will be progressed and training meetings will be scheduled if required
+
+Note: It is an agile format
+
+Training style:
+
+1. No docker-based setups: We will not be using Docker to setup tools initially, prefer setup things from scratch and then use dockers to automate the processes
+
 ## Labs
 
 1. [Setup Airflow](./assets/lab-1-setup-airflow.md): Install Airflow in MacOS/Unix on Local/AWS/GCP - `airflow`, `docker`, `ec2`, `ecs`, `composer`, `mwaa`
@@ -62,10 +84,6 @@
 ### Datasets
 
 1. NYC Taxi
-
-## Training style
-
-1. No docker-based setups: We will not be using Docker to setup tools initially because I believe it is a bad practice to use dockers during learning phase. We should setup things from scratch and then use dockers to automate the processes.
 
 ## About me
 
