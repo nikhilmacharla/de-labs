@@ -2,9 +2,40 @@
 
 ## Objective
 
-Simple EL Pipeline with Data Quality Checks Using Redshift and Great Expectations
+In this lab, we will learn how to combine the functions of three open source tools - Airflow, dbt and Great expectations - to build, test, validate, document, and orchestrate an entire pipeline, end to end, from scratch. We are going to load the NYC Taxi data into Redshift warehouse and then transform + validate the data using dbt and great expectations.
 
-In this lab, we are going to load the NYC Taxi data into Redshift warehouse and then validate the data using great expectations. The process will be converted to a pipeline using Airflow.
+Data quality has become a much discussed topic in the fields of data engineering and data science, and it’s become clear that data validation is crucial to ensuring the reliability of data products and insights produced by an organization’s data pipelines. Apache Airflow and dbt (data build tool) are among the prominent open source tools in the data engineering ecosystem, and while dbt offers some data testing capabilities, another open source data tool, Great Expectations, enhances the pipeline with data validation and can add layers of robustness.
+
+**By the end of this lab, you’ll understand:**
+
+- The basics of dbt, Airflow, and Great Expectations
+- How to effectively combine these components to build a robust data pipeline
+- When and how to implement data validation using these tools
+- How to start developing a data quality strategy for your organization that goes beyond implementing data validation
+
+**And you’ll be able to:**
+
+- Write and run Airflow, dbt, and Great Expectations code
+- Design and implement a robust data pipeline
+- Implement data validation and alerting across a data pipeline
+
+**This lab is for you because…**
+
+- You’re a data engineer or analytics engineer who works with components of the dAG stack and wants to understand how to combine these tools.
+- You want to port existing data pipelines over to a modern data stack.
+- You’re starting out in data engineering and want to better understand the types of tools used in the field.
+
+**Prerequisites**
+
+- Familiarity with Python and SQL (useful but not required)
+
+**Little bit of theory**
+
+While there is a large number of data engineering frameworks have established themselves as leaders in the modern open-source data stack:
+
+- dbt (data build tool) is a framework that allows data teams to quickly iterate on building data transformation pipelines using templated SQL.
+- Apache Airflow is a workflow orchestration tool that enables users to define complex workflows as “DAGs” (directed acyclic graphs) made up of various tasks, as well as schedule and monitor execution.
+- Great Expectations is a python-based open-source data validation and documentation framework.
 
 ## Solution
 

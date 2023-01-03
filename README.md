@@ -30,7 +30,7 @@ How to start your training once you joined:
 | 4 | [CSV to JSON ETL Pipeline](./assets/lab-4-airflow-csv-json.md) | Building an airflow DAG to convert CSV to JSON | `airflow` `faker` |
 | 5 | [Python Airflow connection](./assets/lab-5-airflow-connection.md) | Set Airflow connection using Python | `airflow` `secret-manager` |
 | 6 | [Scooter ETL Pipeline](./assets/lab-6-airflow-scooter-etl.md) | Build an Airflow ETL pipeline using Scooter dataset | `airflow` |
-| 7 | [Data Quality Pipeline](./assets/lab-7-airflow-redshift-ge.md) | Simple EL Pipeline with Data Quality Checks Using Redshift and Great Expectations | `airflow` `redshift` `great-expectations` `nyctaxi` |
+| 7 | [Data Quality Pipeline](./assets/lab-7-airflow-redshift-ge.md) | ETL Pipeline with Data Quality Checks Using Redshift, dbt and Great Expectations | `airflow` `redshift` `great-expectations` `nyctaxi` `dbt` |
 | 8 | [Bash Echo Pipeline](./assets/lab-8-airflow-bash-echo.md) | Building a simple Bash command echo pipeline with Airflow | `airflow` |
 | 9 | [Github NFT Pipeline](./assets/lab-9-airflow-github-nft.md) | Building an ETL pipeline to pull NFT data from Github and store in SQLite database | `airflow` `api` `sqlite` |
 | 10 | [NYC Taxi Fare Prediction](./assets/lab-10-taxi-fare-prediction.md) | Airflow Data Pipeline to Train ML model that will predict NYC Taxi Fare prices | `airflow` `pyspark` `nyctaxi` |
@@ -38,6 +38,7 @@ How to start your training once you joined:
 | 12 | [City Traffic Drone](./assets/lab-12-city-traffic-drone.md) | City Vehicle Trajactories Data extraction and warehousing for Traffic analysis | `airflow` `dbt` `postgres` `redash` |
 | 13 | [Finance Extract Load](./assets/lab-13-finance-extract-load.md) | Financial Data Extraction and Storage | `api` `webscraping` `postgres` |
 | 14 | [Movie Sentiment Pipeline](./assets/lab-14-movie-sentiment.md) | Build a pipeline that expresses the fact artist review sentiment and film review sentiment, based on the data provided by IMDb and TMDb | `airflow` `redshift` `airflow` `sentiment-analysis` `nlp` `tensorflow` |
+| 15 | [S3 Postgres Scala](./assets/lab-15-s3-postgres-scala.md) | Build an ETL pipeline that will load the S3 data into Postgres | `postgres`, `scala`, `databricks` |
 
 ## Techstack
 
@@ -93,6 +94,13 @@ How to start your training once you joined:
 ### Datasets
 
 1. NYC Taxi
+
+### Languages
+
+1. Python
+1. SQL
+1. Scala
+1. PySpark
 
 ## About me
 
