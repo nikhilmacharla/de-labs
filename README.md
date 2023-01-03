@@ -36,8 +36,8 @@ How to start your training once you joined:
 | 10 | [NYC Taxi Fare Prediction](./assets/lab-10-taxi-fare-prediction.md) | Airflow Data Pipeline to Train ML model that will predict NYC Taxi Fare prices | `airflow` `pyspark` `nyctaxi` |
 | 11 | [Forex ETL Pipeline](./assets/lab-11-airflow-forex-etl.md) | Get data from fixer api and run etl | `airflow` `api` |
 | 12 | [City Traffic Drone](./assets/lab-12-city-traffic-drone.md) | City Vehicle Trajactories Data extraction and warehousing for Traffic analysis | `airflow` `dbt` `postgres` `redash` |
-| 13 | [Finance Extract Load](./assets/lab-13-finance-extract-load.md) | Financial Data Extraction and Storage | `api`, `webscraping`, `postgres` |
-| 14 | Movie Sentiment Airflow | Build a pipeline that expresses the fact artist review sentiment and film review sentiment, based on the data provided by IMDb and TMDb | `airflow` `redshift` `airflow` `sentiment-analysis` `nlp` `tensorflow` |
+| 13 | [Finance Extract Load](./assets/lab-13-finance-extract-load.md) | Financial Data Extraction and Storage | `api` `webscraping` `postgres` |
+| 14 | [Movie Sentiment Pipeline](./assets/lab-14-movie-sentiment.md) | Build a pipeline that expresses the fact artist review sentiment and film review sentiment, based on the data provided by IMDb and TMDb | `airflow` `redshift` `airflow` `sentiment-analysis` `nlp` `tensorflow` |
 
 ## Techstack
 
