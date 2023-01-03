@@ -16,29 +16,28 @@ Follow these instructions to join bootcamp:
 How to start your training once you joined:
 
 1. Pick a lab from the list (see below)
-1. Create a User story out of it
+1. Create a User story out of it (note: we are following agile)
 1. Join the daily huddle [here](https://app.slack.com/huddle/T04EYHS8PM1/C04EYJ2PMR9) (15-min Mon-Fri 10:30 PM EST)
 1. Based on your updates, your story will progress and training meetings will be scheduled if required
 
-Methodology:
-
-1. It is an agile format
-1. No docker-based setups: We will not be using Docker to setup tools initially, prefer setup things from scratch and then use dockers to automate the processes
-
 ## Labs
 
-1. [Setup Airflow](./assets/lab-1-setup-airflow.md): Install Airflow in MacOS/Unix on Local/AWS/GCP - `airflow`, `docker`, `ec2`, `ecs`, `composer`, `mwaa`
-1. [ACLED Data Pipeline](./assets/lab-2-acled.md): Build data pipeline using ACLED API - `airflow`, `athena`, `postgres`, `api`, `glue`, `s3`, `pyspark`, `sns`
-1. [Email Notifications in Airflow](./assets/lab-3-airflow-email.md): Enable email notification in Airflow - `airflow`, `ses`
-1. [CSV to JSON ETL Pipeline](./assets/lab-4-airflow-csv-json.md): Building an airflow DAG to convert CSV to JSON - `airflow`, `faker`
-1. [Python Airflow connection](./assets/lab-5-airflow-connection.md): Set Airflow connection using Python - `airflow`, `secret-manager`
-1. [Scooter ETL Pipeline](./assets/lab-6-airflow-scooter-etl.md): Build an Airflow ETL pipeline using Scooter dataset - `airflow`
-1. [Data Quality Pipeline](./assets/lab-7-airflow-redshift-ge.md): Simple EL Pipeline with Data Quality Checks Using Redshift and Great Expectations - `airflow`, `redshift`, `great-expectations`, `nyctaxi`
-1. [Bash Echo Pipeline](./assets/lab-8-airflow-bash-echo.md): Building a simple Bash command echo pipeline with Airflow - `airflow`
-1. [Github NFT Pipeline](./assets/lab-9-airflow-github-nft.md): Building an ETL pipeline to pull NFT data from Github and store in SQLite database - `airflow`, `api`, `sqlite`
-1. [NYC Taxi Fare Prediction](./assets/lab-10-taxi-fare-prediction.md): Airflow Data Pipeline to Train ML model that will predict NYC Taxi Fare prices - `airflow`, `pyspark`, `nyctaxi`
-1. [Forex ETL Pipeline](./assets/lab-11-airflow-forex-etl.md): Get data from fixer api and run etl - `airflow`, `api`
-1. [City Traffic Drone](./assets/lab-12-city-traffic-drone.md): City Vehicle Trajactories Data extraction and warehousing for Traffic analysis - `airflow`, `dbt`, `postgres`, `redash`
+| S. No. | Lab | Learning Objective | Tags |
+| ------ | --- | ------------------ | ---- |
+| 1 | [Setup Airflow](./assets/lab-1-setup-airflow.md) | Install Airflow in MacOS/Unix on Local/AWS/GCP | `airflow` `docker` `ec2` `ecs` `composer` `mwaa` |
+| 2 | [ACLED Data Pipeline](./assets/lab-2-acled.md) | Build data pipeline using ACLED API | `airflow` `athena` `postgres` `api` `glue` `s3` `pyspark` `sns` |
+| 3 | [Email Notifications in Airflow](./assets/lab-3-airflow-email.md) | Enable email notification in Airflow | `airflow` `ses` |
+| 4 | [CSV to JSON ETL Pipeline](./assets/lab-4-airflow-csv-json.md) | Building an airflow DAG to convert CSV to JSON | `airflow` `faker` |
+| 5 | [Python Airflow connection](./assets/lab-5-airflow-connection.md) | Set Airflow connection using Python | `airflow` `secret-manager` |
+| 6 | [Scooter ETL Pipeline](./assets/lab-6-airflow-scooter-etl.md) | Build an Airflow ETL pipeline using Scooter dataset | `airflow` |
+| 7 | [Data Quality Pipeline](./assets/lab-7-airflow-redshift-ge.md) | Simple EL Pipeline with Data Quality Checks Using Redshift and Great Expectations | `airflow` `redshift` `great-expectations` `nyctaxi` |
+| 8 | [Bash Echo Pipeline](./assets/lab-8-airflow-bash-echo.md) | Building a simple Bash command echo pipeline with Airflow | `airflow` |
+| 9 | [Github NFT Pipeline](./assets/lab-9-airflow-github-nft.md) | Building an ETL pipeline to pull NFT data from Github and store in SQLite database | `airflow` `api` `sqlite` |
+| 10 | [NYC Taxi Fare Prediction](./assets/lab-10-taxi-fare-prediction.md) | Airflow Data Pipeline to Train ML model that will predict NYC Taxi Fare prices | `airflow` `pyspark` `nyctaxi` |
+| 11 | [Forex ETL Pipeline](./assets/lab-11-airflow-forex-etl.md) | Get data from fixer api and run etl | `airflow` `api` |
+| 12 | [City Traffic Drone](./assets/lab-12-city-traffic-drone.md) | City Vehicle Trajactories Data extraction and warehousing for Traffic analysis | `airflow` `dbt` `postgres` `redash` |
+| 13 | [Finance Extract Load](./assets/lab-13-finance-extract-load.md) | Financial Data Extraction and Storage | `api`, `webscraping`, `postgres` |
+| 14 | Movie Sentiment Airflow | Build a pipeline that expresses the fact artist review sentiment and film review sentiment, based on the data provided by IMDb and TMDb | `airflow` `redshift` `airflow` `sentiment-analysis` `nlp` `tensorflow` |
 
 ## Techstack
 
