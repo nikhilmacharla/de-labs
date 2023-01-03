@@ -37,6 +37,8 @@ Methodology:
 1. [Bash Echo Pipeline](./assets/lab-8-airflow-bash-echo.md): Building a simple Bash command echo pipeline with Airflow - `airflow`
 1. [Github NFT Pipeline](./assets/lab-9-airflow-github-nft.md): Building an ETL pipeline to pull NFT data from Github and store in SQLite database - `airflow`, `api`, `sqlite`
 1. [NYC Taxi Fare Prediction](./assets/lab-10-taxi-fare-prediction.md): Airflow Data Pipeline to Train ML model that will predict NYC Taxi Fare prices - `airflow`, `pyspark`, `nyctaxi`
+1. [Forex ETL Pipeline](./assets/lab-11-airflow-forex-etl.md): Get data from fixer api and run etl - `airflow`, `api`
+1. [City Traffic Drone](./assets/lab-12-city-traffic-drone.md): City Vehicle Trajactories Data extraction and warehousing for Traffic analysis - `airflow`, `dbt`, `postgres`, `redash`
 
 ## Techstack
 
@@ -61,6 +63,7 @@ Methodology:
 
 1. EC2 - AWS service for VMs on the cloud
 1. Pyspark - Python+Spark for distributed data processing
+1. dbt - Process the data directly in warehouses with sql and jinja
 
 ### Cloud Storage
 
@@ -83,6 +86,10 @@ Methodology:
 ### Credentials Management
 
 1. AWS Secret Manager - comes with encryption and rotation features
+
+### Dashboards
+
+1. Redash - A dashboard building tool
 
 ### Datasets
 
