@@ -8,7 +8,8 @@
 
 Follow these instructions to join bootcamp:
 
-1. Raise a git issue and add label `join-bootcamp-2023s1`
+1. Join the slack channel [here](https://join.slack.com/t/recohutdatabootcamps/shared_invite/zt-1lkelbgj8-s5FT_orVeSJzXgL3fK6SaA)
+1. Request admin/host to add you in the git project
 1. You will get the repo invite
 1. Once you accept the repo invite, you will be able to create your story on [this](https://github.com/orgs/datalaker/projects/3) board
 
@@ -16,7 +17,7 @@ How to start your training once you joined:
 
 1. Pick a lab from the list (see below)
 1. Create a User story out of it
-1. Join the daily scrum call [here](https://meet.google.com/onf-iobd-vvg) (15-min Mon-Fri 10:30 PM EST)
+1. Join the daily huddle [here](https://app.slack.com/huddle/T04EYHS8PM1/C04EYJ2PMR9) (15-min Mon-Fri 10:30 PM EST)
 1. Based on your updates, your story will progress and training meetings will be scheduled if required
 
 Methodology:
