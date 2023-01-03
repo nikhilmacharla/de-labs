@@ -1,25 +1,27 @@
 # Data Engineering Labs
 
+**Hit the ⭐️ button if you like the repo.**
+
 ## Bootcamp
 
-At the moment, **Data Engineering Bootcamp 2023 S1** is active.
+**Data Engineering Bootcamp 2023 S1** is active.
 
 Follow these instructions to join bootcamp:
 
 1. Raise a git issue and add label `join-bootcamp-2023s1`
-1. Wait for 24-hours, you will be added to the git project
+1. You will get the repo invite
+1. Once you accept the repo invite, you will be able to create your story on [this](https://github.com/orgs/datalaker/projects/3) board
 
 How to start your training once you joined:
 
-1. Pick a lab from the list (available in next section)
+1. Pick a lab from the list (see below)
 1. Create a User story out of it
 1. Join the daily scrum call [here](https://meet.google.com/onf-iobd-vvg) (15-min Mon-Fri 10:30 PM EST)
-1. Based on your updates, your story will be progressed and training meetings will be scheduled if required
+1. Based on your updates, your story will progress and training meetings will be scheduled if required
 
-Note: It is an agile format
+Methodology:
 
-Training style:
-
+1. It is an agile format
 1. No docker-based setups: We will not be using Docker to setup tools initially, prefer setup things from scratch and then use dockers to automate the processes
 
 ## Labs
